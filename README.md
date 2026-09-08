@@ -3,13 +3,13 @@
 [![CI](https://github.com/l16-camera/lri-drop/actions/workflows/ci.yml/badge.svg)](https://github.com/l16-camera/lri-drop/actions/workflows/ci.yml)
 [![Pages](https://github.com/l16-camera/lri-drop/actions/workflows/pages.yml/badge.svg)](https://github.com/l16-camera/lri-drop/actions/workflows/pages.yml)
 
-**[Live demo / landing →](https://lridrop.isamarin.xyz/)** — interactive UI shell, [circahue](https://github.com/isamarin/circahue) accent dial, **why 16 DNGs** module map, product walkthrough.
+**[Live demo / landing →](https://lridrop.isamarin.xyz/)** — interactive UI shell, [circahue](https://github.com/circahue/circahue) accent dial, **why 16 DNGs** module map, product walkthrough.
 
 Desktop **Tauri 2 + Svelte 5** converter for **Light L16**: drop `.lri` captures (or pull over **adb**), inspect modules, export **per-module** Adobe **DNG** — full set or **mono only** (A2 / C6) with optional PNG previews and a progress queue.
 
 One L16 shutter is a multi-camera pack (up to **16 optical modules** in A/B/C banks). LRI Drop unpacks those separate sensor frames — it does not invent extra copies.
 
-Depends on the **[luminat](https://github.com/l16-camera/lightmotiv)** crate `light` (LRI parse/extract). Brand chrome uses **[circahue](https://github.com/isamarin/circahue)** (`@igrs/circahue`) for a living circadian accent.
+Depends on the **[luminat](https://github.com/l16-camera/lightmotiv)** crate `light` (LRI parse/extract). Brand chrome uses **[circahue](https://github.com/circahue/circahue)** (`circahue`) for a living circadian accent.
 
 ## Setup
 
@@ -104,12 +104,17 @@ Same `light` library; different product shells.
 ## License
 
 LRI Drop's own code — Tauri shell, Svelte interface, DNG export queue, adb
-camera pull, landing page under `docs/` — is licensed under either
-[Apache-2.0](LICENSE-APACHE) or [MIT](LICENSE-MIT), at your option.
+camera pull, landing page under `docs/` — is licensed under the
+[GNU General Public License, version 3 or later](COPYING).
+
+Released binaries link the `light` crate from lightmotiv, which is itself
+GPL-3.0-or-later, so the binaries are GPL either way. Releases made before this
+change remain available under their original MIT OR Apache-2.0 terms; the
+permissive LICENSE files are kept for that reason.
 
 Released binaries also contain the `.lri` parser inherited from
 [gennyble/lri-rs](https://github.com/gennyble/lri-rs): `lri-rs` under ISC
 (© 2023 gennyble \<gen@nyble.dev\>) and `lri-proto` under MIT (© 2021 Daniel
 Lawrence Lu). See [NOTICE](NOTICE).
 
-Contributions are dual licensed the same way unless you say otherwise.
+Contributions are licensed the same way unless you say otherwise.

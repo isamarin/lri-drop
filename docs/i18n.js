@@ -30,7 +30,7 @@ export const STRINGS = {
     heroEyebrow: "Tauri 2 · Svelte 5 · open L16 tooling",
     heroTitle: "Drop a Light capture.<br /><em>Walk away with DNG.</em>",
     heroLede:
-      "LRI Drop is a small desktop converter for <strong>Light L16</strong> <code>.lri</code> files. It inspects modules, pulls shots from the camera over <code>adb</code>, and writes per-module Adobe DNG — full set or mono only (A2 / C6) with optional PNG previews. Brand chrome follows a <a href=\"https://github.com/isamarin/circahue\">circahue</a> circadian accent (same living light idea as Lightmotiv).",
+      "LRI Drop is a small desktop converter for <strong>Light L16</strong> <code>.lri</code> files. It inspects modules, pulls shots from the camera over <code>adb</code>, and writes per-module Adobe DNG — full set or mono only (A2 / C6) with optional PNG previews. Brand chrome follows a <a href=\"https://github.com/circahue/circahue\">circahue</a> circadian accent (same living light idea as Lightmotiv).",
     heroCtaDl: "Download free",
     heroCtaDemo: "Try the UI demo",
     heroMetaFormatL: "Format",
@@ -90,7 +90,7 @@ export const STRINGS = {
     demoStep2: "Click the drop zone or “add sample shot”.",
     demoStep3: "Flip <strong>Mono only</strong> / previews, then <strong>Convert</strong>.",
     demoAside:
-      "Real conversion needs the Tauri build + <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> <code>light</code>. Accent math is <a href=\"https://github.com/isamarin/circahue\">@igrs/circahue</a> (pure TS, zero DOM deps).",
+      "Real conversion needs the Tauri build + <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> <code>light</code>. Accent math is <a href=\"https://github.com/circahue/circahue\">circahue</a> (pure TS, zero DOM deps).",
     modulesTitle: "Why so many raw files?",
     modulesLede:
       "One Light L16 shutter press is not one photo — it is a <strong>multi-camera capture</strong> packed into a single <code>.lri</code>. LRI Drop does not “multiply” frames; it <em>unpacks</em> what the hardware already recorded.",
@@ -142,7 +142,7 @@ export const STRINGS = {
     feat4p: "Per-file cards: ready, pulling, running %, done with “open folder”, or error text.",
     feat5t: "Living accent",
     feat5p:
-      "UI gold is not a fixed hex — <a href=\"https://github.com/isamarin/circahue\">circahue</a> samples time, season, and latitude into CSS accent vars.",
+      "UI gold is not a fixed hex — <a href=\"https://github.com/circahue/circahue\">circahue</a> samples time, season, and latitude into CSS accent vars.",
     feat6t: "Same light crate",
     feat6p: "Parsing and extract come from Lightmotiv’s open <code>light</code> library — not a black-box converter.",
     cmpTitle: "LRI Drop vs Lightmotiv",
@@ -199,7 +199,7 @@ export const STRINGS = {
     heroEyebrow: "Tauri 2 · Svelte 5 · 開かれた L16 ツール",
     heroTitle: "Light の撮影をドロップ。<br /><em>DNG を持って帰る。</em>",
     heroLede:
-      "LRI Drop は <strong>Light L16</strong> の <code>.lri</code> 向けの小さなデスクトップ変換アプリです。モジュールを検査し、<code>adb</code> でカメラから取り込み、モジュールごとの Adobe DNG を書き出します。全セット、またはモノクロのみ（A2 / C6）。任意で PNG プレビュー。ブランド色は <a href=\"https://github.com/isamarin/circahue\">circahue</a> の概日アクセントです（Lightmotiv と同じ「生きた光」）。",
+      "LRI Drop は <strong>Light L16</strong> の <code>.lri</code> 向けの小さなデスクトップ変換アプリです。モジュールを検査し、<code>adb</code> でカメラから取り込み、モジュールごとの Adobe DNG を書き出します。全セット、またはモノクロのみ（A2 / C6）。任意で PNG プレビュー。ブランド色は <a href=\"https://github.com/circahue/circahue\">circahue</a> の概日アクセントです（Lightmotiv と同じ「生きた光」）。",
     heroCtaDl: "無料で入手",
     heroCtaDemo: "UI デモを試す",
     heroMetaFormatL: "形式",
@@ -259,7 +259,7 @@ export const STRINGS = {
     demoStep2: "ドロップゾーンか「サンプルを追加」をクリック。",
     demoStep3: "<strong>モノクロのみ</strong> / プレビューを切り替えて <strong>変換</strong>。",
     demoAside:
-      "本物の変換には Tauri ビルドと <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> の <code>light</code> が必要です。色の計算は <a href=\"https://github.com/isamarin/circahue\">@igrs/circahue</a>（純 TS、DOM 依存なし）。",
+      "本物の変換には Tauri ビルドと <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> の <code>light</code> が必要です。色の計算は <a href=\"https://github.com/circahue/circahue\">circahue</a>（純 TS、DOM 依存なし）。",
     modulesTitle: "なぜ RAW がこんなに多い？",
     modulesLede:
       "Light L16 のシャッター一回は一枚の写真ではありません。<code>.lri</code> に詰まった <strong>マルチカメラ撮影</strong> です。LRI Drop はフレームを「増やして」いません。ハードウェアが既に撮ったものを <em>ほどきます</em>。",
@@ -311,7 +311,7 @@ export const STRINGS = {
     feat4p: "ファイルごとのカード: 準備、取り込み、%、完了して「フォルダを開く」、またはエラー。",
     feat5t: "生きたアクセント",
     feat5p:
-      "UI の金は固定 hex ではない — <a href=\"https://github.com/isamarin/circahue\">circahue</a> が時刻・季節・緯度を CSS 変数にする。",
+      "UI の金は固定 hex ではない — <a href=\"https://github.com/circahue/circahue\">circahue</a> が時刻・季節・緯度を CSS 変数にする。",
     feat6t: "同じ light crate",
     feat6p: "解析と書き出しは Lightmotiv の公開 <code>light</code> — 黒箱のコンバータではない。",
     cmpTitle: "LRI Drop と Lightmotiv",
@@ -368,7 +368,7 @@ export const STRINGS = {
     heroEyebrow: "Tauri 2 · Svelte 5 · открытый софт для L16",
     heroTitle: "Бросьте снимок Light.<br /><em>Уходите с DNG.</em>",
     heroLede:
-      "LRI Drop — маленький десктоп-конвертер <code>.lri</code> для <strong>Light L16</strong>. Смотрит модули, забирает кадры с камеры по <code>adb</code>, пишет Adobe DNG с каждого модуля — полный набор или только моно (A2 / C6), по желанию PNG-превью. Цвет оболочки — циркадный акцент <a href=\"https://github.com/isamarin/circahue\">circahue</a> (та же живая световая идея, что у Lightmotiv).",
+      "LRI Drop — маленький десктоп-конвертер <code>.lri</code> для <strong>Light L16</strong>. Смотрит модули, забирает кадры с камеры по <code>adb</code>, пишет Adobe DNG с каждого модуля — полный набор или только моно (A2 / C6), по желанию PNG-превью. Цвет оболочки — циркадный акцент <a href=\"https://github.com/circahue/circahue\">circahue</a> (та же живая световая идея, что у Lightmotiv).",
     heroCtaDl: "Скачать бесплатно",
     heroCtaDemo: "Демо интерфейса",
     heroMetaFormatL: "Формат",
@@ -428,7 +428,7 @@ export const STRINGS = {
     demoStep2: "Клик по зоне или «добавить образец».",
     demoStep3: "Переключите <strong>только моно</strong> / превью, затем <strong>Конвертировать</strong>.",
     demoAside:
-      "Настоящая конвертация — сборка Tauri + <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> <code>light</code>. Математика акцента — <a href=\"https://github.com/isamarin/circahue\">@igrs/circahue</a> (чистый TS, без DOM).",
+      "Настоящая конвертация — сборка Tauri + <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> <code>light</code>. Математика акцента — <a href=\"https://github.com/circahue/circahue\">circahue</a> (чистый TS, без DOM).",
     modulesTitle: "Почему столько сырых файлов?",
     modulesLede:
       "Одно нажатие затвора Light L16 — это не один снимок, а <strong>съёмка несколькими камерами</strong> в одном <code>.lri</code>. LRI Drop не «размножает» кадры; он <em>распаковывает</em> то, что железо уже записало.",
@@ -480,7 +480,7 @@ export const STRINGS = {
     feat4p: "Карточка на файл: готов, тянется, %, готово с «открыть папку» или текст ошибки.",
     feat5t: "Живой акцент",
     feat5p:
-      "Золото интерфейса — не фиксированный hex: <a href=\"https://github.com/isamarin/circahue\">circahue</a> берёт время, сезон и широту в CSS-переменные.",
+      "Золото интерфейса — не фиксированный hex: <a href=\"https://github.com/circahue/circahue\">circahue</a> берёт время, сезон и широту в CSS-переменные.",
     feat6t: "Тот же crate light",
     feat6p: "Разбор и выгрузка — из открытой библиотеки <code>light</code> в lightmotiv, не чёрный ящик.",
     cmpTitle: "LRI Drop и Lightmotiv",
@@ -537,7 +537,7 @@ export const STRINGS = {
     heroEyebrow: "Tauri 2 · Svelte 5 · outillage L16 ouvert",
     heroTitle: "Déposez une prise Light.<br /><em>Repartez avec du DNG.</em>",
     heroLede:
-      "LRI Drop est un petit convertisseur bureau pour les fichiers <code>.lri</code> du <strong>Light L16</strong>. Il inspecte les modules, tire les vues depuis l’appareil en <code>adb</code>, et écrit un Adobe DNG par module — jeu complet ou mono seulement (A2 / C6), aperçus PNG en option. L’accent de marque suit <a href=\"https://github.com/isamarin/circahue\">circahue</a> (la même idée de lumière vivante que Lightmotiv).",
+      "LRI Drop est un petit convertisseur bureau pour les fichiers <code>.lri</code> du <strong>Light L16</strong>. Il inspecte les modules, tire les vues depuis l’appareil en <code>adb</code>, et écrit un Adobe DNG par module — jeu complet ou mono seulement (A2 / C6), aperçus PNG en option. L’accent de marque suit <a href=\"https://github.com/circahue/circahue\">circahue</a> (la même idée de lumière vivante que Lightmotiv).",
     heroCtaDl: "Télécharger gratuitement",
     heroCtaDemo: "Essayer la démo",
     heroMetaFormatL: "Format",
@@ -597,7 +597,7 @@ export const STRINGS = {
     demoStep2: "Cliquez la zone ou « ajouter un échantillon ».",
     demoStep3: "Basculez <strong>Mono seulement</strong> / aperçus, puis <strong>Convertir</strong>.",
     demoAside:
-      "La vraie conversion demande le build Tauri + <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> <code>light</code>. Le calcul d’accent est <a href=\"https://github.com/isamarin/circahue\">@igrs/circahue</a> (TS pur, zéro DOM).",
+      "La vraie conversion demande le build Tauri + <a href=\"https://github.com/l16-camera/lightmotiv\">lightmotiv</a> <code>light</code>. Le calcul d’accent est <a href=\"https://github.com/circahue/circahue\">circahue</a> (TS pur, zéro DOM).",
     modulesTitle: "Pourquoi autant de fichiers raw ?",
     modulesLede:
       "Un déclenchement Light L16 n’est pas une photo — c’est une <strong>prise multi-caméras</strong> dans un seul <code>.lri</code>. LRI Drop ne « multiplie » pas les vues ; il <em>dépaquette</em> ce que le matériel a déjà enregistré.",
@@ -649,7 +649,7 @@ export const STRINGS = {
     feat4p: "Une carte par fichier : prêt, en cours, %, terminé avec « ouvrir le dossier », ou le texte d’erreur.",
     feat5t: "Accent vivant",
     feat5p:
-      "L’or de l’UI n’est pas un hex fixe — <a href=\"https://github.com/isamarin/circahue\">circahue</a> échantillonne l’heure, la saison et la latitude en variables CSS.",
+      "L’or de l’UI n’est pas un hex fixe — <a href=\"https://github.com/circahue/circahue\">circahue</a> échantillonne l’heure, la saison et la latitude en variables CSS.",
     feat6t: "Le même crate light",
     feat6p: "Analyse et extract viennent de la bibliothèque ouverte <code>light</code> de Lightmotiv — pas une boîte noire.",
     cmpTitle: "LRI Drop vs Lightmotiv",

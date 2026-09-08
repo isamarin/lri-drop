@@ -6,7 +6,7 @@ resolver = "2"
 version = "2026.8.5"
 edition = "2021"
 authors = ["isamarin × IGRS"]
-license = "MIT OR Apache-2.0"
+license = "GPL-3.0-or-later"
 
 [profile.release]
 opt-level = 3
