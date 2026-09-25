@@ -3,7 +3,7 @@ members = ["src-tauri"]
 resolver = "2"
 
 [workspace.package]
-version = "2026.8.5"
+version = "2026.9.25"
 edition = "2021"
 authors = ["isamarin × IGRS"]
 license = "GPL-3.0-or-later"
