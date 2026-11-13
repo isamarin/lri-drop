@@ -22,7 +22,7 @@ git clone https://github.com/l16-camera/lightmotiv.git ~/IGRS/luminat
 ./scripts/link-luminat.sh
 
 # 3) frontend + rust
-npm install
+pnpm install
 ```
 
 Requires: Rust, Node 20+, platform WebView deps (Xcode CLT on macOS; WebKitGTK on Linux), `adb` on PATH for camera features.
@@ -33,14 +33,14 @@ Requires: Rust, Node 20+, platform WebView deps (Xcode CLT on macOS; WebKitGTK o
 # install Tauri CLI once
 cargo install tauri-cli --version '^2'
 
-npm run tauri dev
+pnpm run tauri dev
 ```
 
 ## Lint & check (same as CI)
 
 ```bash
-npm run lint          # eslint (svelte + js)
-npm run build         # vite production build
+pnpm run lint          # eslint (svelte + js)
+pnpm run build         # vite production build
 cargo fmt --all -- --check
 cargo clippy -p lri-drop --all-targets --no-deps -- -D warnings
 cargo build --release -p lri-drop
@@ -49,7 +49,7 @@ cargo build --release -p lri-drop
 ## Build
 
 ```bash
-npm run tauri build
+pnpm run tauri build
 # or binary only:
 cargo build --release -p lri-drop
 ```
@@ -68,7 +68,7 @@ cargo build --release -p lri-drop
 
 | Job | What |
 | --- | --- |
-| **Frontend** | `npm ci` · eslint · vite build · artifact `dist/` |
+| **Frontend** | `pnpm install --frozen-lockfile` · eslint · vite build · artifact `dist/` |
 | **Rust · fmt & clippy** | checkout luminat → fmt · clippy (macOS) |
 | **Build** | release binary matrix: **macOS aarch64**, **Windows x64**, **Linux x64** |
 | **Publish Release** | on `v*` tags → GitHub Release with named zips + binaries |
